@@ -97,9 +97,9 @@
 // NaN                         | 
 
 // Show that the string "0" returns a truthy value
-if ("0") {
-    showMessage('true')
-}
+// if ("0") {
+//     showMessage('true')
+// }
 
 // floating point number issue
 // toFixed converts a string to a number
@@ -108,7 +108,7 @@ if ("0") {
 //     showMessage('true');
 // }
 
-if ( +(1.1 + 1.3).toFixed(2) === 2.4) {
-    let message = 'hello';
-    showMessage(message);
-}
+// if ( +(1.1 + 1.3).toFixed(2) === 2.4) {
+//     let message = 'hello';
+//     showMessage(message);
+// }
