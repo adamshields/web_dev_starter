@@ -13,7 +13,13 @@
 // showMessage(typeof amount);
 
 
-// converts a string to a floating number using parse float
-let amount = Number.parseFloat("123.12");
-showMessage(amount);
-// showMessage(typeof amount);
+// // converts a string to a floating number using parse float
+// let amount = Number.parseFloat("123.12");
+// showMessage(amount);
+// // showMessage(typeof amount);
+
+
+// Boolean Variables
+let saved = true;
+saved = !saved; // flip the saved variable using ! // Exclamation point means NOT
+showMessage(saved);
