@@ -1,5 +1,5 @@
 
-let price = 3 + 2 * 2;
+let price = (3 + 2) * 2;
 
 
 
