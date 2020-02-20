@@ -1,9 +1,9 @@
 
-let amount = 20 - (-2);
+let message = "Hello \"World\"";
 
 
 
-showMessage(amount);
+showMessage(message);
 
 
 
