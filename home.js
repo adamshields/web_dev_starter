@@ -44,15 +44,44 @@
 
 // Conditions using if statements
 
-if (5 === 5) {      // True
-    console.log('Yes');
-}
+// if (5 === 5) {      // True
+//     console.log('Yes');
+// }
 
-if (5 > 5) {        // False
-    console.log('No');
-}
+// if (5 > 5) {        // False
+//     console.log('No');
+// }
 
-if (5 >= 5 ) {      // True
-    console.log('Yes')
-}
+// if (5 >= 5 ) {      // True
+//     console.log('Yes')
+// }
 
+// Tax Program if Statement
+
+// let state = 'FL';
+// let taxPercent = 0;
+
+// if (state === 'FL') {
+//     taxPercent = 7;
+// }
+
+// console.log(taxPercent); 
+
+// let state = 'FL';
+// let taxPercent = 0;
+
+// if (state !== 'FL') {  // !== isNotEqual to 
+//     taxPercent = 7;
+// }
+
+// console.log(taxPercent); 
+
+
+// if (true) {
+//     showMessage('true')
+// }
+
+// let price = 20;
+// if (price !== 15) {
+//     showMessage('discounted')
+// }
