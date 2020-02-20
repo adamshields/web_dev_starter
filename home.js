@@ -5,5 +5,5 @@
 
 
 let message = 'Hello';
-message = message.toLowerCase()
+message = message.toLowerCase();
 showMessage(message);
