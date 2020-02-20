@@ -3,11 +3,17 @@
 // let is for defining a variable 
 
 //  You can also define variables using let once and then separate them by commas and end with a semi colon ;
-let price = 49.99,
-    name = 'Hiking Boots',
-    discounted = false;
+let price;
 
-showMessage(discounted);
+// lots of code
+price = 49.99;
+
+// more code
+
+price = 29.99;
+
+
+showMessage(price);
 
 
 
