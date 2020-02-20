@@ -202,9 +202,31 @@
 
 // using == for comparison
 
-if (1 == "1") { // results in true because javaScript will attempt to convert types // it will convert "1" into string 1 so this comparison is true
-    showMessage('true');
-}
-else {
-    showMessage('false')
-}
+// if (1 == "1") { // results in true because javaScript will attempt to convert types // it will convert "1" into string 1 so this comparison is true
+//     showMessage('true');
+// }
+// else {
+//     showMessage('false');
+// }
+
+// The Ternary Operator
+
+// This is a special operator that works with 3 different values 
+// its a shortcut for working with if else statements
+
+// (condition) ? true-statement : false-statement
+
+// let price = 20;
+
+// let message = (price > 10) ? 'expensive' : 'cheap'
+
+// showMessage(message); // expensive
+
+// let price = 20;
+// // (condition) ? true-statement : false-statement
+// (price > 10) ? showMessage('yes') : showMessage('no'); // shows how Ternary works single line evaluation
+
+let price = 20;
+
+let message = (price < 10) ? 'yes' : 'no'; // simplified version of a Ternary basically evaluating on one line
+showMessage(message);
