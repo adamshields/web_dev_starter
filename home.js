@@ -1,7 +1,7 @@
 
 let price = 20.99;
 
-price = price + 1;
+price += 5;
 
 showMessage(price);
 
