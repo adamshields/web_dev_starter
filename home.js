@@ -1,1 +1,11 @@
-showMessage("I Over rode the id of id='message'");
+showMessage("Title 1");
+showMessage("Title 2");
+
+
+// Single Line Comment
+
+/*
+Multi 
+Line
+Comment
+*/
