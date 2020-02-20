@@ -1,9 +1,9 @@
 
-let price = 12;
-    // taxRate = 0.07;
+let price = 3 + 2 * 2;
 
 
-showMessage(--price);
+
+showMessage(price);
 
 
 
