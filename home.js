@@ -20,6 +20,14 @@
 
 
 // Boolean Variables
-let saved = true;
-saved = !saved; // flip the saved variable using ! // Exclamation point means NOT
+// let saved = true;
+// saved = !saved; // flip the saved variable using ! // Exclamation point means NOT
+// showMessage(saved);
+
+
+//  Null and Undefined
+
+let saved = 10;
+saved = null; // when you want to wipe out the value of a variable and set it to null so nothing shows or the value is empty use = null
 showMessage(saved);
+console.log(saved);
