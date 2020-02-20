@@ -41,3 +41,18 @@
 
 // showMessage(person.firstName + person.lastName)
 // console.log(person.firstName);
+
+// Conditions using if statements
+
+if (5 === 5) {      // True
+    console.log('Yes');
+}
+
+if (5 > 5) {        // False
+    console.log('No');
+}
+
+if (5 >= 5 ) {      // True
+    console.log('Yes')
+}
+
