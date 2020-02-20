@@ -27,7 +27,17 @@
 
 //  Null and Undefined
 
-let saved = 10;
-saved = null; // when you want to wipe out the value of a variable and set it to null so nothing shows or the value is empty use = null
-showMessage(saved);
-console.log(saved);
+// let saved = 10;
+// saved = null; // when you want to wipe out the value of a variable and set it to null so nothing shows or the value is empty use = null
+// showMessage(saved);
+// console.log(saved);
+
+// Objects & Symbols
+
+let person = {
+    firstName: 'John', // Properties
+    lastName: 'Shields',
+};
+
+showMessage(person.firstName + person.lastName)
+console.log(person.firstName);
