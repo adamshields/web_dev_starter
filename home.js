@@ -185,3 +185,26 @@
 // else if (price < 4) {  // less than 4
 //     showMessage('less than 4');  
 // }
+
+
+// Comparing === and ==
+
+
+// using === for comparison
+
+// if (1 === "1") { // not equal because "1" is a string
+//     showMessage('true');
+// }
+// else {
+//     showMessage('false')
+// }
+
+
+// using == for comparison
+
+if (1 == "1") { // results in true because javaScript will attempt to convert types // it will convert "1" into string 1 so this comparison is true
+    showMessage('true');
+}
+else {
+    showMessage('false')
+}
