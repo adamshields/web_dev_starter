@@ -112,3 +112,76 @@
 //     let message = 'hello';
 //     showMessage(message);
 // }
+
+// if ... else statements
+
+// if (true) {
+//     showMessage('true');
+// }
+// else {
+//     showMessage('false'); // Results in True because thats what I am evaluating against
+// }
+
+// if (false) {
+//     showMessage('true');
+// }
+// else {
+//     showMessage('false');  // Results in false
+// }
+
+
+// let price = 20;
+// if (price > 20) {
+//     showMessage('true');
+// }
+// else {
+//     showMessage('false');  // Results in false
+// }
+
+// let price = 20;
+// if (price > 10) {
+//     showMessage('true'); // Results in true
+// }
+// else {
+//     showMessage('false');  
+// }
+
+// let price = 4;
+// if (price > 10) {  // this evaluates to false
+//     showMessage('true'); 
+// }
+// else if (price < 5) {  // so this is evaluated and shows the message
+//     showMessage('less than 5');  
+// }
+
+// Shows how this is a valid block of code without the braces
+
+// let price = 4;
+// if (price > 10)  
+//     showMessage('true'); 
+// else if (price < 5) {  
+//     showMessage('less than 5');  
+// }
+
+// But its always best practices to use the braces
+
+// let price = 4;
+// if (price > 10) {
+//     showMessage('true'); 
+// }
+// else if (price < 5) {
+//     showMessage('less than 5');  
+// }
+
+// Using multiple else if statements to check other things
+
+// let price = 1;
+// if (price > 10) {
+//     showMessage('true'); 
+// }
+// else if (price > 5) {  // greater than 5
+//     showMessage('less than 5');  
+// }
+// else if (price < 4) {  // less than 4
+//     showMessage('less than 4');  
+// }
