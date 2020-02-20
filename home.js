@@ -15,5 +15,4 @@
 
 // converts a string to a floating number using parse float
 let amount = Number.parseFloat("123.12");
-amount = amount.toString();
 showMessage(amount);
