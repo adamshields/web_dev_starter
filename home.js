@@ -5,5 +5,5 @@
 
 
 let message = 'Hello';
-message = message.substring(1)
+message = message.length;
 showMessage(message);
