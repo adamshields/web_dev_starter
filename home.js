@@ -103,7 +103,7 @@
 
 // floating point number issue
 // toFixed converts a string to a number
-// plus sign is a simple way to convert a string converted by toFixed back into a number
+// plus (+) sign is a simple way to convert a string converted by toFixed back into a number
 // if ( +(1.1 + 1.3).toFixed(2) === 2.4) {
 //     showMessage('true');
 // }
