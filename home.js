@@ -34,10 +34,10 @@
 
 // Objects & Symbols
 
-let person = {
-    firstName: 'John', // Properties
-    lastName: 'Shields',
-};
+// let person = {
+//     firstName: 'John', // Properties
+//     lastName: 'Shields',
+// };
 
-showMessage(person.firstName + person.lastName)
-console.log(person.firstName);
+// showMessage(person.firstName + person.lastName)
+// console.log(person.firstName);
