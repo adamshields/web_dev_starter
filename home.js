@@ -1,7 +1,7 @@
 
-const price = 40;
+let price = 20.99;
 
-showMessage(price);
+showMessage(typeof price);
 
 
 
