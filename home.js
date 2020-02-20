@@ -1,5 +1,6 @@
 
-let message = "Hello \"World\"";
+let name = 'Andrea'
+let message = `Hello ${name}`;
 
 
 
