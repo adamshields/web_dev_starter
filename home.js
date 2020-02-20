@@ -1,9 +1,9 @@
 
-let price = (3 + 2) * 2;
+let amount = 20 - (-2);
 
 
 
-showMessage(price);
+showMessage(amount);
 
 
 
