@@ -346,3 +346,26 @@
 
 // logMessage();
 // logMessage();
+
+// Function Expressions
+
+// function showMessage() {  // function declaration
+        
+// }
+
+// let fn = function () {  // function expression
+
+// }
+
+// fn(); // calls the function
+
+
+// Function Expressions
+
+// the loggingFunction is used for debugging later if needed
+
+// let myFunction = function loggingFunction () {
+//     console.log('Here is a message');
+// }
+
+// myFunction();
