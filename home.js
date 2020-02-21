@@ -380,11 +380,32 @@
 // showMessage('First Message')
 // showMessage('Second Message')
 
-// passing message and firsName are arguments for the function
+// // passing message and firsName are arguments for the function
 
-let myFunction = function (message, firstName) {
-    console.log(message);
-    console.log(firstName);
-}
+// let myFunction = function (message, firstName) {
+//     console.log(message);
+//     console.log(firstName);
+// }
 
-myFunction('Hello', 'Adam');
+// myFunction('Hello', 'Adam');
+
+
+// Function Return Values
+
+// function getSecretCode(value) {
+//     let code = value * 42;
+//     return code;
+// }
+// // the 2 is the 'value' that i am specifying when calling the function
+// // 42 * 2 = 84
+// showMessage(getSecretCode(2)); // 84
+
+
+// // another way of doing it using a variable to show the message
+
+// function getSecretCode(value) {
+//     let code = value * 42;
+//     return code;
+// }
+// let secretCode = getSecretCode(2);
+// showMessage(secretCode); 
