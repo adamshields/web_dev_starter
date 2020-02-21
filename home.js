@@ -295,3 +295,35 @@
 //     console.log(i);
 //     i--;  // output is backwards 4 3 2 1 
 // }
+
+
+
+// Looping with do ... while()
+
+// used for guaranteeing that body of code will execute just once
+
+
+// // this loop runs while count is less than 5
+// // This test the condition after the code block executes while...
+// let count = 1;
+
+// do {
+//     console.log(count);
+//     count++;
+// } while (count < 5); // output is 1 2 3 4 
+
+
+// let i = 4;
+
+// do {
+//     console.log(i);
+//     i--;
+// } while (i > 0); // output is 4 3 2 1
+
+
+// let i = -4;
+
+// do {
+//     console.log(i);
+//     i--;
+// } while (i > 0); // output is -4
