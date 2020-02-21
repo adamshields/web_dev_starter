@@ -504,16 +504,16 @@ changePercentOff(32)
 // showMessage(person.age);
 
 
-// Object Methods
+// // Object Methods
 
-let person = {
-    name: 'John',
-    age: 32,
-    partTime: false,
-    showInfo: function(realAge) {
-        showMessage(this.name + ' is ' + realAge); // this. is similar to self in python it allows access to variables inside of the function
-    }
-};
+// let person = {
+//     name: 'John',
+//     age: 32,
+//     partTime: false,
+//     showInfo: function(realAge) {
+//         showMessage(this.name + ' is ' + realAge); // this. is similar to self in python it allows access to variables inside of the function
+//     }
+// };
 
-// person.showInfo(34);
-showMessage(typeof person.showInfo);
+// // person.showInfo(34);
+// showMessage(typeof person.showInfo);
