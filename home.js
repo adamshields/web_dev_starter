@@ -327,3 +327,15 @@
 //     console.log(i);
 //     i--;
 // } while (i > 0); // output is -4
+
+
+// // Function Basics
+
+// function showMessage() {
+//     console.log('in a function');
+// }
+
+// showMessage();
+// showMessage();
+
+// // shows the message in the function twice
