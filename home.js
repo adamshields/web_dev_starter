@@ -338,4 +338,11 @@
 // showMessage();
 // showMessage();
 
-// // shows the message in the function twice
+// // // shows the message in the function twice
+
+// function logMessage() {
+//     console.log('Here is a message');
+// }
+
+// logMessage();
+// logMessage();
