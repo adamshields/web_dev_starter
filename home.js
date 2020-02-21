@@ -226,7 +226,23 @@
 // // (condition) ? true-statement : false-statement
 // (price > 10) ? showMessage('yes') : showMessage('no'); // shows how Ternary works single line evaluation
 
-let price = 20;
+// let price = 20;
 
-let message = (price < 10) ? 'yes' : 'no'; // simplified version of a Ternary basically evaluating on one line
-showMessage(message);
+// let message = (price < 10) ? 'yes' : 'no'; // simplified version of a Ternary basically evaluating on one line
+// showMessage(message);
+
+
+// Block Scope Using let
+
+// value is only available within the block
+// if (true) {
+//     let value = 'yes';
+//     showMessage(value);
+// }
+
+// Set value as constant because its not changing and not needed outside of the block
+// if (true) {
+//     const value = 'yes';
+//     showMessage(value);
+// }
+
