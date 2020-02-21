@@ -369,3 +369,22 @@
 // }
 
 // myFunction();
+
+
+// Passing Information to Functions
+
+// function showMessage(message) {
+//     console.log(message);
+// }
+
+// showMessage('First Message')
+// showMessage('Second Message')
+
+// passing message and firsName are arguments for the function
+
+let myFunction = function (message, firstName) {
+    console.log(message);
+    console.log(firstName);
+}
+
+myFunction('Hello', 'Adam');
