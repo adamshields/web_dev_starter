@@ -409,3 +409,49 @@
 // }
 // let secretCode = getSecretCode(2);
 // showMessage(secretCode); 
+
+
+// Function Scope
+
+// // Not in Outer Scope
+
+// function getSecretCode(value) {
+//     let code = value * 42;
+//     return code;
+// }
+// let secretCode = getSecretCode(2);
+// showMessage(code); // error 'code' is not defined because its inside of the function and not in outer scope
+
+
+// // Available in outer scope
+
+// let key = 42;
+
+// function getSecretCode(value) {
+//     let code = value * key;
+//     return code;
+// }
+// let secretCode = getSecretCode(2);
+// showMessage(secretCode); 
+
+
+// Function within a function nested function
+
+// // This is a complex type function
+
+// let key = 42;
+
+// function getSecretCode(value) {
+
+//     let keyGenerator = function() {
+//         let key = 12;
+//         console.log('in keyGenerator nested function', key); 
+//         return key; // keyGenerator results in in keyGenerator nested function 12
+//     }
+
+//     let code = value * keyGenerator();
+//     console.log('in getSecretCode nested function', key);
+//     return code; // keyGenerator results in getSecretCode nested function 42
+// }
+// let secretCode = getSecretCode(2);
+// showMessage(secretCode); 
