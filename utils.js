@@ -2,3 +2,8 @@
 function showMessage(message) {
     document.getElementById('message').textContent = message;
 }
+
+// Using Functions to Modify Web Pages
+function changePercentOff(percentage) {
+    document.getElementById('percent-off').textContent = percentage + "% OFF";
+}

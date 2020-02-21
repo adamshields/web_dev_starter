@@ -455,3 +455,8 @@
 // }
 // let secretCode = getSecretCode(2);
 // showMessage(secretCode); 
+
+
+// Using Functions to Modify Web Pages
+
+changePercentOff(32)
