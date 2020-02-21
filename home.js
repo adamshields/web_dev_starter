@@ -460,3 +460,45 @@
 // Using Functions to Modify Web Pages
 
 changePercentOff(32)
+
+
+// Object Properties
+
+// // can do it this way
+
+// let person = {
+//     name: 'John',
+//     age: 32,
+//     partTime: false
+// };
+
+// person.age = 33;
+
+// showMessage(person.age);
+
+// // or this way with square brackets
+
+// let person = {
+//     name: 'John',
+//     age: 32,
+//     partTime: false
+// };
+
+// person['age'] = 44;
+
+// showMessage(person.age);
+
+// // Create a Symbol to hide information
+
+// let mySymbol = Symbol();
+
+// let person = {
+//     name: 'John',
+//     age: 32,
+//     partTime: false,
+//     [mySymbol]: 'secretInformation',
+// };
+
+// person['age'] = 44;
+
+// showMessage(person.age);
