@@ -246,3 +246,32 @@
 //     showMessage(value);
 // }
 
+// Looping with for()
+
+//  (statement; condition that evaluates; statement that executes after the loop completes ++ operator is increment operator it adds 1 to i)
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);  // outputs in console 0 1 2
+// }
+
+// i is equal to 0
+// as long is < less than 5
+// we will log out i++ which increments
+
+// for (let i=0; i < 5; i++) {
+//     console.log(i);  // outputs to console 0 1 2 3 4
+// }
+
+// // be careful with the operator as it will show different results <=
+// for (let i=0; i <= 5; i++) { 
+//     console.log(i);  // outputs to console 0 1 2 3 4 5
+// }
+
+// // Infinite Loop
+// for (let i=0; i < 5; i--) { 
+//     console.log(i);  // outputs to console an endless loop and will hang up the browser
+// }
+
+// Infinite Loop
+for (let i=0; i < 5; i++) { 
+    console.log(i);  // outputs to console an endless loop and will hang up the browser
+}
