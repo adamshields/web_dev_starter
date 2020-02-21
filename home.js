@@ -271,7 +271,27 @@
 //     console.log(i);  // outputs to console an endless loop and will hang up the browser
 // }
 
-// Infinite Loop
-for (let i=0; i < 5; i++) { 
-    console.log(i);  // outputs to console an endless loop and will hang up the browser
-}
+// Normal for loop and increments
+// for (let i=0; i < 5; i++) { 
+//     console.log(i);  // 
+// }
+
+
+// Looping with while()
+
+
+// // While count is less than 5 it will run the code block and increment count with incrementor ++ then move on to the next block or function
+// let count = 1;
+
+// while (count < 5) {
+//     console.log(count);
+//     count++; // outputs to console 0 1 2 3 4
+// }
+
+
+// // i is used as a traditional variable used in loops i stands for index or iterator
+// let i = 4;
+// while (i > 0) {
+//     console.log(i);
+//     i--;  // output is backwards 4 3 2 1 
+// }
